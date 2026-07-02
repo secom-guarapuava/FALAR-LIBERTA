@@ -260,6 +260,8 @@ b,strong{font-weight:700}
 .contact-primary__num{font-family:var(--f-display);font-weight:400;font-size:clamp(2.4rem,6vw,3.8rem);line-height:.95;color:var(--paper);letter-spacing:.012em}
 .contact-primary__num span{color:var(--sky)}
 .contact-primary__desc{margin-top:.6rem;color:var(--muted-paper);max-width:62ch}
+.contatos__emergency{text-align:center;color:var(--muted-paper);margin-top:18px;font-size:.98rem}
+.contatos__emergency a{color:var(--sky);font-weight:800;border-bottom:2px solid currentColor}
 .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .contact{padding:28px 26px;border-radius:var(--radius);display:flex;flex-direction:column;gap:.7rem;transition:transform .35s var(--ease),box-shadow .35s var(--ease)}
 .contact:hover{transform:translateY(-5px)}
